@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; Charset=UTF-8"/>
+    <meta http-equiv="Content-Security-Policy" content="media-src *">
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta name="robots" content="noindex,nofollow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="mobile-web-app-capable" content="yes">
+
+<!--     <link rel="manifest" href="manifest.json"> -->
+    <!-- Fallback application metadata for legacy browsers -->
+<!--     <meta name="application-name" content="Live">
+    <link rel="icon" sizes="64x64" href="images/icons/64.png">
+    <link rel="icon" sizes="512x512" href="images/icons/512.png"> -->
+    
+    <title>GoLive</title>
+
+    <!--DESIGN-->
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+    <link rel="stylesheet" href="stylesheets/main.css"/>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+
+    <!--SCRIPTS-->
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+</head>
+<body ng-controller="MainCtrl">
+  
+    <!--LOADER-->
+    <div id="container_loader"></div>
+
+    <!--NOT AUTHORIZED MESSAGE-->
+    <div id="conexion-message" style='display:none;' >
+      <ul nv-scope="conexion-message"><li nv-el-current nv-el></li></ul>
+      <div id="message"></div>
+    </div>
+
+    <div class="container" id="cont">
+
+   <!-- MAIN PLAYER-->
+      <div id='main_player'  nv-scope="main_player" width='100%' height='100%' style='z-index:100;'>
+          <div nv-el nv-el-current>
+              <video id='main_video' no-controls width='100%' height='100%' style='z-index:100;background:black;position:absolute;top:0;left:0;'><source src='' type='application/x-mpegURL'></source>
+              </video>
+          </div>
+          <div id='main-play-indicator' style='display:none;'>
+            <img src="images/player/play-large.png"/>
+          </div>
+          <div id='main-pause-indicator' style='display:none;'>
+            <img src="images/player/pause-large.png"/>
+          </div>
+      </div>
+    <!-- END MAIN PLAYER-->
+
+     <!-- MENU --> 
+    <div id="menu-controller" nv-scope="menu-controller">
+        <a href="javascript:_controllerMenu();"><img nv-el nv-el-current src="images/ic_menu.png"/></a>
+    </div>
+    <div id="menu-container" class="menu">
+        <div id="menu"  nv-scope="menu" >
+         <!-- MENU HERE -->
+        </div>
+    </div>
+    <!-- END MENU -->
+
+    <!-- SUB MENU -->
+    <div id="sub-menu-container">
+       <div id="sub-menu" nv-scope="sub-menu" class="sub-menu">
+         <!-- SUB MENU HERE -->
+       </div>
+    </div>
+    <!-- END SUB MENU -->
+
+     <!-- TOP -->
+    <div id="top" nv-scope="top"></div>
+    <!-- END TOP -->
+    
+    <!-- CONTENT -->
+    <div id="content">
+        <h2 id="section_title"></h2>
+        <div id="list" nv-scope="list" class="video-list"></div>
+        <div id='keyboard_container'></div>
+    </div>
+
+    <script type="text/javascript">
+
+          //INITIALIZING APP
+          $( document ).ready(function() {
+
+              window.scrollTo(0,1);
+              $('#menu-container').hide();
+           
+              if( conf.environment != "prd" ){
+                    //DBoxTV.start(encrypter(DBoxTV.jsonFormat({nexturl: 'gethomescreenmenu'})));
+                    $('body').append('<h4 style="font-size:.7rem;position:absolute;top:94%;left:90%;color:white;">'+ conf.environment + conf.version + '</h4>');
+              }
+
+              // $.holdReady( true );
+              // $.getScript( "js/navigation/navigation.js", function() {
+              //   $.holdReady( false );
+              // });
+
+          });
+
+    </script>
+
+    <script type="text/javascript" src="js/dbox/conf.js"></script>
+    <script type="text/javascript" src="js/dbox/functions.js"></script>
+    <script type="text/javascript" src="js/videoEvents.js"></script>
+    <script type="text/javascript" src="js/utils.js"></script>
+    <script type="text/javascript" src="js/dbox/main.js"></script>
+    <script type="text/javascript" src="js/pushNotification.js"></script>
+    <script type="text/javascript" src="js/dbox/requestapi.js"></script>
+    
+
+    <script type="text/javascript" src="js/dbox/header.js"></script>
+    <script type="text/javascript" src="js/dbox/menu.js"></script>
+    <script type="text/javascript" src="js/dbox/home.js"></script>
+    <script type="text/javascript" src="js/dbox/homeEvents.js"></script>
+    <script type="text/javascript" src="js/dbox/apps.js"></script>
+    <script type="text/javascript" src="js/dbox/parentalControls.js"></script>
+    <script type="text/javascript" src="js/dbox/movies.js"></script>
+    <script type="text/javascript" src="js/dbox/videos.js"></script>
+
+    <script type="text/javascript" src="js/navigation/bindKeys.js"></script>
+    <script type="text/javascript" src="js/navigation/navigation.js"></script>
+   
+    <script type="text/javascript" src="js/intentapp.js"></script>
+    <script type="text/javascript" src="js/clock.js"></script>
+    <script type="text/javascript" src="js/jquery.fullscreen.js"></script>
+    <script type="text/javascript" src="js/aes.js"></script>
+    <script type="text/javascript" src="js/mode-ctr-min.js"></script>
+   
+</body>
+</html>

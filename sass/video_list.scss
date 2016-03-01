@@ -1,0 +1,138 @@
+ .video-list{
+        background:none;
+        height:600px;
+        padding-top:.7rem;
+       
+         & ul{
+             width:99900px;
+             padding-left:10rem;
+             padding-right:20rem;
+             height:1200px;
+            
+            & li{
+                margin:0;
+                padding:0;
+                //display: inline;
+                float:left;
+                padding-right: 2rem;
+                opacity: .7;
+
+                @include scale_animation(.8,600ms);
+                .channel{}
+                & .video-obj{
+                    display:none;
+                    position: relative;
+                    top:-1rem;
+                    & video{
+                      object-fit: cover;
+                    }
+                }
+                & .live-next{
+                    background:url($player_details_background_disable) no-repeat;
+                    background-position: right top;
+                    & h4{
+                        background: $dark;
+                    }
+                }
+               
+            }
+            & #in-down{
+                position:absolute;
+                top:0px;
+                & img{
+                  float:left;
+                  width: 50%;
+                }
+            }
+        }
+         & .nv-el-current{
+              opacity: 1;
+              float:left;
+              @include scale_animation(1.1,600ms);
+              .channel{}
+              & .video-obj{
+                display:block;
+                position: relative;
+                top:-1rem;
+                & video{
+                  object-fit: cover;
+                   //border-top:5px solid $green;//*
+                   //border-bottom:none;
+                }
+             }
+             & .live-current{
+                  border-bottom:3px solid $green;//*
+                  position: relative;
+                  top:-2rem;
+                  //border-top:none;
+             }
+             & .live-next{
+                background:url($player_details_background) no-repeat;
+                background-position: right top;
+                & h4{
+                    background: $red;
+                }
+             }            
+          }
+    }
+    #next-program{
+      position:absolute;
+        top:41rem;
+        left:70.3rem;
+    }
+    #in-up{
+        position:absolute;
+        top:41rem;
+        left:70.3rem;
+        opacity: .1;
+        & img{
+          float:left;
+          width: 50px;
+          height: 28px;
+        }
+    } 
+    #in-down{
+        position:absolute;
+        top:41rem;
+        left:67.3rem;
+        & img{
+          float:left;
+          width: 50px;
+          height: 28px;
+        }
+    } 
+    #in-count{
+        position:absolute;
+        top:41rem;
+        left:74.3rem;
+        color:white;
+        font-size: 1rem;
+        background:black;
+        padding:.3rem .7rem;
+        border-radius: 2rem;
+        
+        animation-name: stretch;
+        animation-duration: 2s; 
+        animation-timing-function: ease-out; 
+        animation-delay: 1.3s;
+        animation-direction: alternate;
+        animation-iteration-count: 1;
+        animation-fill-mode: none;
+        animation-play-state: running;
+
+    } 
+
+    @keyframes stretch {
+      0% {
+        transform: scale(.8);
+        
+      }
+      50% {
+        transform: scale(1.5);
+        background:$green;
+      }
+      100% {
+        transform: scale(1);
+        background:black;
+      }
+    }

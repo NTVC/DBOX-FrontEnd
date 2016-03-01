@@ -1,0 +1,122 @@
+@import 'variables';
+
+@mixin default(){
+	width:$widget_width;
+	height:$widget_height;
+	background: $red;
+	float:left;
+	overflow:hidden;
+	display:inline;
+}
+
+#padding-of-menu{
+	width:$menu_width + 2rem;
+	height:100%;
+	float:left;
+}
+
+.video-list{
+	
+	 & .nv-el-current {
+	 	& .title {
+	 		color: $green;
+	 	}
+	 	& .selector{
+			height:.8rem;
+			//border:4px solid $green;
+			background:$green;
+			//top:-$widget_height - 2.6rem;
+			padding:0rem;
+
+		}
+     }
+    & #session-dashboard{
+    	position:relative;
+		& .widget{
+			padding:1rem;
+			float:left;
+			position:relative;
+			top:0;
+			left:0;
+			& .widget-news{
+					@include default;
+					//width: 60rem;
+					height: 5.5rem;
+					float:left;
+					& #news{
+						& .news-box{
+							display:inline;
+							position: relative;
+							top:-7rem;
+							left:0;
+							& .news-title{
+								font-size: 1.3rem;
+								color:white;
+								padding:9rem 1rem;
+							}
+							& .news-content{
+								display:none;
+							}
+						}
+						& .nv-el-current {
+				            & .news-title{
+								padding:9rem 1rem;
+
+				       	 	}
+				        }
+				}
+			}
+			& .widget-weather{
+					@include default;
+					background: #23d3ff;
+					float:left;
+			}
+			& .widget-money{
+					@include default;
+					float:left;
+			}
+			& .widget-app{
+				width:20rem;
+				& a{
+					display:block;
+					float:left;
+				}
+				& img{
+					margin-left:.4rem;
+				}
+			}
+			& .nv-el-current {
+		 		opacity:.2;
+	     	}
+			.title{
+				text-align: left;
+				font-size:2rem;
+				padding-bottom:1rem;
+				padding-left:0rem;
+				color:black;
+				height: 2rem;
+			}
+			.indicator{
+				//position:relative;
+				// top:-$widget_height;
+				//width: 60rem;
+				// height:$widget_height; 
+				background:$dark;
+				& img{
+					margin:0;
+					padding:0;
+					padding-left:30rem;
+				}
+
+			}
+		}
+	}
+}
+
+
+		
+		// .nv-scope-current{
+  //       	 border:20px solid blue;
+  //       }
+
+         

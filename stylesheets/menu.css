@@ -1,0 +1,116 @@
+/* line 3, ../sass/menu.scss */
+.menu_default, .menu {
+  height: 100%;
+  overflow: auto;
+  padding-top: 2rem;
+}
+
+/* line 9, ../sass/menu.scss */
+#menu-controller img {
+  width: 4rem;
+  background: black;
+  position: absolute;
+  top: 9rem;
+  left: 0rem;
+  padding: 0rem 0rem 0rem 1.4rem;
+}
+
+/* menu list */
+/* line 22, ../sass/menu.scss */
+.menu {
+  width: 16rem;
+  font-size: 1.4rem;
+  background: #101010;
+  position: absolute;
+  left: 0rem;
+  padding-left: 1rem;
+  z-index: 99;
+  font-weight: 100;
+}
+/* line 35, ../sass/menu.scss */
+.menu #logo {
+  padding: 2rem 0 1.8rem 0;
+}
+/* line 39, ../sass/menu.scss */
+.menu ul {
+  color: white;
+  background: none;
+}
+/* line 43, ../sass/menu.scss */
+.menu ul .nv-el {
+  padding: 0;
+  margin: 0;
+  color: #9f9f9f;
+  font-size: 1.4rem;
+  padding: 0.5em .5em;
+}
+/* line 50, ../sass/menu.scss */
+.menu ul .nv-el-current {
+  background-color: #5ddb00;
+  color: white;
+}
+/* line 54, ../sass/menu.scss */
+.menu ul .nv-el-current .loader-menu {
+  display: block;
+  position: relative;
+  top: -1.0rem;
+  left: .4rem;
+  border: 1px soid red;
+}
+/* line 56, ../sass/menu.scss */
+.menu ul .nv-el-current .loader-menu img {
+  width: 1.4rem;
+  float: right;
+}
+/* line 63, ../sass/menu.scss */
+.menu ul .loader-menu {
+  display: none;
+}
+/* line 65, ../sass/menu.scss */
+.menu ul .loader-menu img {
+  width: 0rem;
+  float: right;
+}
+
+/* line 79, ../sass/menu.scss */
+#sub-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 16rem;
+  height: 100%;
+  left: 17rem;
+  color: white;
+  background: #292929;
+  z-index: 99;
+  font-weight: 100;
+}
+/* line 90, ../sass/menu.scss */
+#sub-menu ul {
+  color: white;
+  font-size: 1.4rem;
+}
+/* line 97, ../sass/menu.scss */
+#sub-menu ul .nv-el-current {
+  color: white;
+  background: #5ddb00;
+}
+/* line 101, ../sass/menu.scss */
+#sub-menu ul li {
+  padding: .6em .5em;
+}
+
+/* line 108, ../sass/menu.scss */
+.nv-scope {
+  background-color: none;
+}
+
+/* line 112, ../sass/menu.scss */
+.nv-scope-current {
+  background-color: none;
+}
+
+/* line 123, ../sass/menu.scss */
+.inactive {
+  color: white;
+}

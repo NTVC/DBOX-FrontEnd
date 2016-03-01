@@ -1,0 +1,939 @@
+/* line 3, ../sass/content_list.scss */
+#content {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+/* line 7, ../sass/home_list.scss */
+#content .home-list {
+  background: none;
+  width: 100%;
+  height: 100%;
+  padding-top: 0rem;
+  margin-top: 0rem;
+  float: left;
+  display: inline;
+  position: relative;
+  top: -4rem;
+  overflow: visible;
+}
+/* line 19, ../sass/home_list.scss */
+#content .home-list .shortcut-title-movies {
+  position: absolute;
+  top: 22.4rem;
+  left: 30rem;
+}
+/* line 24, ../sass/home_list.scss */
+#content .home-list .shortcut-title-community {
+  position: absolute;
+  top: 22.4rem;
+  left: -1.8rem;
+}
+/* line 30, ../sass/home_list.scss */
+#content .home-list ul li {
+  border-radius: .5rem;
+  overflow: hidden;
+  width: 5.2rem;
+  height: 5.2rem;
+  display: inline;
+  float: left;
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+/* line 40, ../sass/home_list.scss */
+#content .home-list ul li img {
+  width: 100%;
+}
+/* line 45, ../sass/home_list.scss */
+#content .home-list ul #livetv {
+  border-radius: .5rem;
+  width: 10.4rem;
+  height: 10.4rem;
+  padding: 0rem 0rem 0rem 0rem;
+}
+/* line 51, ../sass/home_list.scss */
+#content .home-list ul #livetv img {
+  width: 100%;
+}
+/* line 55, ../sass/home_list.scss */
+#content .home-list ul .nv-el-current {
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  background: none;
+  box-shadow: 0px 0px 0 2px white;
+}
+/* line 73, ../sass/home_list.scss */
+#content .home-list #apps {
+  border-radius: .5rem;
+  width: 300px;
+  margin-left: 8rem;
+  background: black;
+  display: block;
+  overflow: visible;
+}
+/* line 80, ../sass/home_list.scss */
+#content .home-list #apps li {
+  opacity: 0.8;
+}
+/* line 85, ../sass/home_list.scss */
+#content .home-list #apps #livetv {
+  background: #5ddb00;
+  margin: 0 auto;
+  text-align: center;
+  opacity: 1;
+}
+/* line 90, ../sass/home_list.scss */
+#content .home-list #apps #livetv h2 {
+  width: 80%;
+  margin: 0;
+  text-align: center;
+  padding: 30% 0 0 10%;
+  color: white;
+  font-weight: 500;
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  letter-spacing: -.1rem;
+}
+/* line 103, ../sass/home_list.scss */
+#content .home-list #apps .nv-el-current {
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: scale(1);
+  float: left;
+}
+/* line 113, ../sass/home_list.scss */
+#content .home-list #banners {
+  width: 358px;
+  height: 332px;
+  background: none;
+  float: left;
+  margin-left: 1.4rem;
+  position: relative;
+  top: -15.3rem;
+}
+/* line 121, ../sass/home_list.scss */
+#content .home-list #banners li {
+  width: 100%;
+  height: 158px;
+  overflow: hidden;
+  margin-bottom: .5rem;
+  background: none;
+  transform: scale(1);
+}
+/* line 132, ../sass/home_list.scss */
+#content .home-list #banners .nv-el-current {
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  transform: scale(1.1);
+  float: left;
+}
+/* line 142, ../sass/home_list.scss */
+#content .home-list #show {
+  width: 400px;
+  height: 338px;
+  background: none;
+  overflow: hidden;
+  float: left;
+  padding-top: 0rem;
+  margin-left: .5rem;
+  position: relative;
+  top: -16.1rem;
+}
+/* line 152, ../sass/home_list.scss */
+#content .home-list #show li {
+  background: black;
+  border-radius: .5rem;
+  width: 100%;
+  height: 218px;
+  overflow: hidden;
+  display: block;
+  opacity: 1;
+}
+/* line 162, ../sass/home_list.scss */
+#content .home-list #show #video_container {
+  width: 100%;
+  height: 300px;
+  float: left;
+  padding-top: 0rem;
+  background: black;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+/* line 172, ../sass/home_list.scss */
+#content .home-list #show #video_container #video_sponsor {
+  width: 100%;
+  background: black;
+}
+/* line 180, ../sass/home_list.scss */
+#content .home-list #show #mini-banner {
+  padding: 0;
+  width: 100%;
+  height: 130px;
+  background: none;
+  position: relative;
+  top: -.4rem;
+}
+/* line 181, ../sass/home_list.scss */
+#content .home-list #show #mini-banner img {
+  width: 100%;
+  height: 100%;
+}
+/* line 193, ../sass/home_list.scss */
+#content .home-list #show .nv-el-current {
+  opacity: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  float: left;
+}
+/* line 203, ../sass/home_list.scss */
+#content .home-list .highlights {
+  width: 500px;
+  float: left;
+  position: relative;
+  top: -15rem;
+  background: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 211, ../sass/home_list.scss */
+#content .home-list .highlights h2 {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  float: left;
+  font-size: 1.6rem;
+}
+/* line 218, ../sass/home_list.scss */
+#content .home-list .highlights li {
+  width: 7.6rem;
+  height: 11rem;
+  overflow: visible;
+  background: none;
+  padding: .1rem;
+  display: inline;
+  float: left;
+  opacity: 0.8;
+}
+/* line 227, ../sass/home_list.scss */
+#content .home-list .highlights li img {
+  border-radius: .5rem;
+  width: 100%;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(250, 250, 250, 0.4)));
+}
+/* line 235, ../sass/home_list.scss */
+#content .home-list .highlights .load-more-button img {
+  width: 100%;
+  height: 14rem;
+  -webkit-box-reflect: none;
+}
+/* line 241, ../sass/home_list.scss */
+#content .home-list .highlights .nv-el-current {
+  opacity: 1;
+  position: relative;
+  top: -.4rem;
+  left: 0;
+  transform: scale(1.1);
+  float: left;
+}
+/* line 251, ../sass/home_list.scss */
+#content .home-list .first {
+  margin-left: 8.2rem;
+}
+@keyframes bounceOut {
+  0% {
+    box-shadow: 0 0 0 4px #5ddb00;
+    opacity: 1;
+  }
+  25% {
+    box-shadow: 0 0 0 1px #5ddb00;
+    opacity: 1;
+  }
+  50% {
+    box-shadow: 0 0 0 7px #5ddb00;
+    opacity: 1;
+  }
+  75% {
+    box-shadow: 0 0 0 2px #5ddb00;
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0 0 0 4px #5ddb00;
+    opacity: 1;
+  }
+}
+/* line 1, ../sass/video_list.scss */
+#content .video-list {
+  background: none;
+  height: 600px;
+  padding-top: .7rem;
+}
+/* line 6, ../sass/video_list.scss */
+#content .video-list ul {
+  width: 99900px;
+  padding-left: 10rem;
+  padding-right: 20rem;
+  height: 1200px;
+}
+/* line 12, ../sass/video_list.scss */
+#content .video-list ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  padding-right: 2rem;
+  opacity: .7;
+  transform: scale(0.8);
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  -ms-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+  transition: all 600ms ease-in-out;
+}
+/* line 22, ../sass/video_list.scss */
+#content .video-list ul li .video-obj {
+  display: none;
+  position: relative;
+  top: -1rem;
+}
+/* line 26, ../sass/video_list.scss */
+#content .video-list ul li .video-obj video {
+  object-fit: cover;
+}
+/* line 30, ../sass/video_list.scss */
+#content .video-list ul li .live-next {
+  background: url("") no-repeat;
+  background-position: right top;
+}
+/* line 33, ../sass/video_list.scss */
+#content .video-list ul li .live-next h4 {
+  background: #101010;
+}
+/* line 39, ../sass/video_list.scss */
+#content .video-list ul #in-down {
+  position: absolute;
+  top: 0px;
+}
+/* line 42, ../sass/video_list.scss */
+#content .video-list ul #in-down img {
+  float: left;
+  width: 50%;
+}
+/* line 48, ../sass/video_list.scss */
+#content .video-list .nv-el-current {
+  opacity: 1;
+  float: left;
+  transform: scale(1.1);
+  -webkit-transition: all 600ms ease-in-out;
+  -moz-transition: all 600ms ease-in-out;
+  -ms-transition: all 600ms ease-in-out;
+  -o-transition: all 600ms ease-in-out;
+  transition: all 600ms ease-in-out;
+}
+/* line 53, ../sass/video_list.scss */
+#content .video-list .nv-el-current .video-obj {
+  display: block;
+  position: relative;
+  top: -1rem;
+}
+/* line 57, ../sass/video_list.scss */
+#content .video-list .nv-el-current .video-obj video {
+  object-fit: cover;
+}
+/* line 63, ../sass/video_list.scss */
+#content .video-list .nv-el-current .live-current {
+  border-bottom: 3px solid #5ddb00;
+  position: relative;
+  top: -2rem;
+}
+/* line 69, ../sass/video_list.scss */
+#content .video-list .nv-el-current .live-next {
+  background: url("") no-repeat;
+  background-position: right top;
+}
+/* line 72, ../sass/video_list.scss */
+#content .video-list .nv-el-current .live-next h4 {
+  background: #fd4302;
+}
+/* line 78, ../sass/video_list.scss */
+#content #next-program {
+  position: absolute;
+  top: 41rem;
+  left: 70.3rem;
+}
+/* line 83, ../sass/video_list.scss */
+#content #in-up {
+  position: absolute;
+  top: 41rem;
+  left: 70.3rem;
+  opacity: .1;
+}
+/* line 88, ../sass/video_list.scss */
+#content #in-up img {
+  float: left;
+  width: 50px;
+  height: 28px;
+}
+/* line 94, ../sass/video_list.scss */
+#content #in-down {
+  position: absolute;
+  top: 41rem;
+  left: 67.3rem;
+}
+/* line 98, ../sass/video_list.scss */
+#content #in-down img {
+  float: left;
+  width: 50px;
+  height: 28px;
+}
+/* line 104, ../sass/video_list.scss */
+#content #in-count {
+  position: absolute;
+  top: 41rem;
+  left: 74.3rem;
+  color: white;
+  font-size: 1rem;
+  background: black;
+  padding: .3rem .7rem;
+  border-radius: 2rem;
+  animation-name: stretch;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-delay: 1.3s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+@keyframes stretch {
+  0% {
+    transform: scale(0.8);
+  }
+  50% {
+    transform: scale(1.5);
+    background: #5ddb00;
+  }
+  100% {
+    transform: scale(1);
+    background: black;
+  }
+}
+/* line 1, ../sass/movie_list.scss */
+#content .movie-list {
+  background: none;
+  height: 100%;
+  overflow: scroll-y;
+  position: absolute;
+  top: 0;
+  margin-bottom: 18rem;
+}
+/* line 8, ../sass/movie_list.scss */
+#content .movie-list ul {
+  margin-top: -3rem;
+  padding-top: 13rem;
+  padding-left: 9rem;
+}
+/* line 17, ../sass/movie_list.scss */
+#content .movie-list ul #movieListFinal {
+  padding-top: 20rem;
+  margin-top: 20rem;
+  height: 20rem;
+}
+/* line 22, ../sass/movie_list.scss */
+#content .movie-list ul li {
+  width: 12.1rem;
+  height: 23rem;
+  margin: .7rem;
+  padding: 0rem;
+  display: inline;
+  float: left;
+  padding-right: 0rem;
+  position: relative;
+  transform: scale(0.7, 0.7);
+}
+/* line 33, ../sass/movie_list.scss */
+#content .movie-list ul li .bar {
+  position: relative;
+  top: 3rem;
+  width: 0rem;
+  height: .2rem;
+  background: #5ddb00;
+}
+/* line 40, ../sass/movie_list.scss */
+#content .movie-list ul li .play-movie {
+  opacity: 0;
+  position: relative;
+  top: 12rem;
+  left: 5rem;
+}
+/* line 46, ../sass/movie_list.scss */
+#content .movie-list ul li .poster {
+  float: left;
+  background: black;
+}
+/* line 49, ../sass/movie_list.scss */
+#content .movie-list ul li .poster img {
+  opacity: 1;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(250, 250, 250, 0.4)));
+}
+/* line 54, ../sass/movie_list.scss */
+#content .movie-list ul li h3 {
+  display: none;
+  color: white;
+  background: #101010;
+  width: 12.5rem;
+  float: left;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.3rem;
+  text-transform: uppercase;
+  font-size: .8rem;
+  position: relative;
+  top: -1rem;
+}
+/* line 71, ../sass/movie_list.scss */
+#content .movie-list ul .load-more {
+  width: 12.1rem;
+  height: 18rem;
+  background-color: #5ddb00;
+  margin: 3rem auto;
+  text-align: center;
+}
+/* line 78, ../sass/movie_list.scss */
+#content .movie-list ul .load-more img {
+  padding-top: 5rem;
+}
+/* line 83, ../sass/movie_list.scss */
+#content .movie-list .description {
+  z-index: 2147483647;
+  display: none;
+  position: absolute;
+  padding: 1rem;
+  width: 19rem;
+  height: 22rem;
+  line-height: 1rem;
+  background: white;
+  border: 3px solid white;
+  overflow: hidden;
+}
+/* line 96, ../sass/movie_list.scss */
+#content .movie-list .description #poster-placeholder {
+  float: left;
+  padding-right: .8rem;
+  padding-bottom: .6rem;
+}
+/* line 101, ../sass/movie_list.scss */
+#content .movie-list .description #movie-title {
+  font-weight: 500;
+  color: #9f9f9f;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  margin: 0;
+  margin-bottom: .5rem;
+}
+/* line 109, ../sass/movie_list.scss */
+#content .movie-list .description #movie-description {
+  color: #9f9f9f;
+  font-size: 1.1rem;
+  font-weight: 100;
+  line-height: 1.2rem;
+  width: 100%;
+  height: 11.8rem;
+  overflow: hidden;
+}
+/* line 118, ../sass/movie_list.scss */
+#content .movie-list .description #year {
+  font-weight: 700;
+  font-size: .9rem;
+  color: #9f9f9f;
+}
+/* line 123, ../sass/movie_list.scss */
+#content .movie-list .description #runtime {
+  font-weight: 700;
+  font-size: .9rem;
+  color: #9f9f9f;
+}
+/* line 128, ../sass/movie_list.scss */
+#content .movie-list .description #rating {
+  font-weight: 700;
+  font-size: .9rem;
+  color: #9f9f9f;
+}
+/* line 133, ../sass/movie_list.scss */
+#content .movie-list .description #tags {
+  font-weight: 700;
+  font-size: .9rem;
+  color: #9f9f9f;
+}
+/* line 138, ../sass/movie_list.scss */
+#content .movie-list .description #watch-now {
+  padding: .4rem;
+  border: 0px solid red;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 144, ../sass/movie_list.scss */
+#content .movie-list .description #watch-now img {
+  padding-right: .6rem;
+}
+/* line 147, ../sass/movie_list.scss */
+#content .movie-list .description #watch-now #placeholder {
+  font-size: 1.4rem;
+  color: #9f9f9f;
+  position: relative;
+  top: -1rem;
+}
+/* line 155, ../sass/movie_list.scss */
+#content .movie-list .nv-el-current {
+  transform: scale(1, 1);
+}
+/* line 157, ../sass/movie_list.scss */
+#content .movie-list .nv-el-current .bar {
+  width: 12.5rem;
+  -webkit-transition: 2000ms linear;
+  -moz-transition: 2000ms linear;
+  -o-transition: 2000ms linear;
+  -ms-transition: 2000ms linear;
+  transition: 2000ms linear;
+}
+/* line 165, ../sass/movie_list.scss */
+#content .movie-list .nv-el-current .play-movie {
+  opacity: 1;
+}
+/* line 168, ../sass/movie_list.scss */
+#content .movie-list .nv-el-current .poster {
+  background: black;
+}
+/* line 170, ../sass/movie_list.scss */
+#content .movie-list .nv-el-current .poster img {
+  opacity: 1;
+}
+/* line 1, ../sass/apps_list.scss */
+#content .apps-list {
+  background: none;
+  width: 100%;
+  height: 100%;
+  overflow: scroll-y;
+  position: absolute;
+  top: 0;
+  margin-top: 0rem;
+  padding-top: 16rem;
+}
+/* line 11, ../sass/apps_list.scss */
+#content .apps-list ul {
+  width: 1000px;
+  float: left;
+  margin-left: 10rem;
+  padding-bottom: 10rem;
+  height: 100%;
+}
+/* line 18, ../sass/apps_list.scss */
+#content .apps-list ul li {
+  width: 8rem;
+  height: 8rem;
+  padding: 0rem;
+  display: inline;
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+/* line 29, ../sass/apps_list.scss */
+#content .apps-list ul li img {
+  width: 100%;
+  height: 100%;
+}
+/* line 35, ../sass/apps_list.scss */
+#content .apps-list .nv-el-current {
+  box-shadow: 0px 0px 0 2px white;
+  transform: scale(1.2, 1.2);
+}
+/* line 3, ../sass/parental_controls.scss */
+#content #list #pc-menu {
+  background: none;
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  margin-top: 0rem;
+  padding-top: 16rem;
+  float: left;
+}
+/* line 14, ../sass/parental_controls.scss */
+#content #list #pc-menu h2 {
+  float: left;
+  text-transform: capitalize;
+}
+/* line 18, ../sass/parental_controls.scss */
+#content #list #pc-menu ul {
+  width: 9000px;
+  float: left;
+  margin-left: 8.7rem;
+  padding-left: 2rem;
+}
+/* line 24, ../sass/parental_controls.scss */
+#content #list #pc-menu ul li {
+  padding: 0rem;
+  display: inline;
+  float: left;
+  margin-right: 2rem;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0px 0px 0 1px white;
+}
+/* line 32, ../sass/parental_controls.scss */
+#content #list #pc-menu ul li h2 {
+  width: 100%;
+  float: left;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: .4rem 2rem;
+  padding: 0;
+}
+/* line 42, ../sass/parental_controls.scss */
+#content #list #pc-menu .nv-el-current {
+  background: #5ddb00;
+  box-shadow: 0px 0px 0 1px #5ddb00;
+  transform: scale(1.2, 1.2);
+}
+/* line 45, ../sass/parental_controls.scss */
+#content #list #pc-menu .nv-el-current h2 {
+  color: white;
+}
+/* line 54, ../sass/parental_controls.scss */
+#content #list #pc-contents {
+  width: 100%;
+  height: 30rem;
+}
+/* line 59, ../sass/parental_controls.scss */
+#content #list #pc-contents ul {
+  width: 9000px;
+  margin-left: 5.6rem;
+  padding-left: 2rem;
+  margin-top: 6.5rem;
+  overflow: visible;
+}
+/* line 68, ../sass/parental_controls.scss */
+#content #list #pc-contents ul li {
+  width: 6rem;
+  display: inline;
+  float: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  margin-left: 2rem;
+}
+/* line 79, ../sass/parental_controls.scss */
+#content #list #pc-contents ul li img {
+  width: 6rem;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: .5rem;
+}
+/* line 86, ../sass/parental_controls.scss */
+#content #list #pc-contents ul li span {
+  float: left;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  margin-top: .2rem;
+}
+/* line 92, ../sass/parental_controls.scss */
+#content #list #pc-contents ul li span i {
+  float: left;
+  font-size: 1rem;
+  margin: .3rem .5rem 0 0;
+  padding: 0;
+}
+/* line 104, ../sass/parental_controls.scss */
+#content #list #pc-contents .nv-el-current {
+  box-shadow: 0px 0px 0 1px white;
+  border-radius: 1rem;
+  transform: scale(1.3, 1.3);
+}
+/* line 107, ../sass/parental_controls.scss */
+#content #list #pc-contents .nv-el-current h2 {
+  color: black;
+}
+/* line 114, ../sass/parental_controls.scss */
+#content #list #pc-contents .enabled span {
+  color: white;
+}
+/* line 117, ../sass/parental_controls.scss */
+#content #list #pc-contents .enabled img {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+}
+/* line 121, ../sass/parental_controls.scss */
+#content #list #pc-contents .enabled .pc-itens {
+  color: white;
+}
+/* line 127, ../sass/parental_controls.scss */
+#content #list #pc-contents .disabled span {
+  color: red;
+}
+/* line 130, ../sass/parental_controls.scss */
+#content #list #pc-contents .disabled img {
+  opacity: .5;
+  -webkit-filter: grayscale(100%);
+}
+/* line 134, ../sass/parental_controls.scss */
+#content #list #pc-contents .disabled .pc-itens {
+  color: red;
+}
+/* line 142, ../sass/parental_controls.scss */
+#content #list #button-controller ul {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 630px;
+  margin-left: 9rem;
+  width: 12rem;
+  height: 4rem;
+  border-radius: .5rem;
+  background: white;
+}
+/* line 152, ../sass/parental_controls.scss */
+#content #list #button-controller ul li {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  margin-top: .4rem;
+}
+/* line 158, ../sass/parental_controls.scss */
+#content #list #button-controller ul .nv-el-current {
+  background: #5ddb00;
+  color: white;
+  transform: scale(1.3, 1.3);
+}
+/* line 168, ../sass/parental_controls.scss */
+#content #list .enabled span {
+  color: white;
+}
+/* line 171, ../sass/parental_controls.scss */
+#content #list .enabled img {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+}
+/* line 175, ../sass/parental_controls.scss */
+#content #list .enabled .pc-itens {
+  color: white;
+}
+/* line 178, ../sass/parental_controls.scss */
+#content #list .enabled i {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  color: white;
+}
+/* line 188, ../sass/parental_controls.scss */
+#content #list .disabled .video-obj {
+  background: white;
+}
+/* line 191, ../sass/parental_controls.scss */
+#content #list .disabled span {
+  color: red;
+}
+/* line 194, ../sass/parental_controls.scss */
+#content #list .disabled img {
+  opacity: .5;
+  -webkit-filter: grayscale(100%);
+}
+/* line 198, ../sass/parental_controls.scss */
+#content #list .disabled .pc-itens {
+  color: red;
+}
+/* line 4, ../sass/keyboard.scss */
+#content #keyboard_container #password-window {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 0;
+}
+/* line 11, ../sass/keyboard.scss */
+#content #keyboard_container #password-window .keyboard {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: gray;
+  float: left;
+}
+/* line 19, ../sass/keyboard.scss */
+#content #keyboard_container #password-window .keyboard .keys {
+  width: 11.7%;
+  height: 5rem;
+  color: white;
+  background: gray;
+  float: left;
+  text-align: center;
+  font-size: 2.8rem;
+  padding: 1rem;
+}
+/* line 29, ../sass/keyboard.scss */
+#content #keyboard_container #password-window .keyboard li:last-child {
+  font-size: 2rem;
+  line-height: 1.7rem;
+  margin-top: .4rem;
+}
+/* line 34, ../sass/keyboard.scss */
+#content #keyboard_container #password-window .keyboard .nv-el-current {
+  background: #5ddb00 !important;
+}
+/* line 39, ../sass/keyboard.scss */
+#content #keyboard_container #password-window .pass-window {
+  width: 100%;
+  height: 200px;
+  background: white;
+  color: black;
+  font-size: 2.8rem;
+  text-align: center;
+}
+/* line 48, ../sass/keyboard.scss */
+#content #keyboard_container #password-window .pass-window #title {
+  width: 30rem;
+  height: 96px;
+  float: left;
+  margin-right: 5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  background: #5ddb00;
+  color: white;
+}
+/* line 58, ../sass/keyboard.scss */
+#content #keyboard_container #password-window .pass-window div {
+  width: 10%;
+  height: 2rem;
+  float: left;
+  margin: 0 auto;
+  padding: 4.5rem 1rem 2rem 1rem;
+  text-align: center;
+}
+/* line 15, ../sass/content_list.scss */
+#content h2 {
+  font-family: "Roboto-Light", Helvetica, Arial;
+  color: white;
+  padding-left: 10rem;
+  font-weight: 100;
+  font-size: 2rem;
+  margin-top: -.6rem;
+}
+/* line 24, ../sass/content_list.scss */
+#content #seasontitle {
+  color: white;
+  font-size: 1.3rem;
+  padding-top: .7rem;
+  padding-right: .5rem;
+  float: left;
+}

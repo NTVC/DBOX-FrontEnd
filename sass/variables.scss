@@ -1,0 +1,68 @@
+
+$primary-font: 'Roboto-Light', Helvetica, Arial;
+
+$black: #000000;
+$dark: #101010;
+$menu_deactive:#9f9f9f;
+$white: #ffffff;
+$green: #5ddb00;
+$red: #fd4302;
+$green_dark: #4cb200;
+
+$font_menu: 1.4rem;
+$font_submenu: 1.4rem;
+
+$menu_width: 16rem;
+
+$background_default: '../images/backgrounds/default.jpg';
+
+//PLAYER LAYOUT
+$player_details_background: '';//../images/player/prev-title-bg.png';
+$player_details_background_disable: '';//../images/player/prev-title-bg-disable.png';
+$video_bg: '../images/player/video-player-left.png';
+$loader: '../images/player/loader.gif';
+
+//LIST
+$background_more_button: '../images/more.png';
+
+//NEWS SIZE
+$news_width:230rem;
+
+//WIDGET
+$widget_width:27rem;
+$widget_height:10rem;
+
+@mixin player_details_background($bg) {
+  background:url($bg) no-repeat;
+  background-position: right top;
+}
+
+@mixin scale_animation($value,$duration){
+	transform:scale($value);
+  	-webkit-transition: all $duration ease-in-out;
+  	-moz-transition: all $duration ease-in-out;
+  	-ms-transition: all $duration ease-in-out;
+  	-o-transition: all $duration ease-in-out;
+  	transition: all $duration ease-in-out;
+}
+
+@mixin player_effect($pos,$opacity,$h){
+	position: relative;
+	top:$pos;
+	opacity:$opacity;
+    -webkit-transition: all 400ms ease-in-out;
+    -moz-transition: all 400ms ease-in-out;
+    -ms-transition: all 400ms ease-in-out;
+    -o-transition: all 400ms ease-in-out;
+    transition: all 400ms ease-in-out;
+}
+
+@mixin height_animation($val,$opacity){
+	height:$val;
+	opacity:$opacity;
+    -webkit-transition: all 1000ms ease-in-out;
+    -moz-transition: all 1000ms ease-in-out;
+    -ms-transition: all 1000ms ease-in-out;
+    -o-transition: all 1000ms ease-in-out;
+    transition: all 1000ms ease-in-out;	
+} 

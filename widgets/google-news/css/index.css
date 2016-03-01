@@ -1,0 +1,79 @@
+ .cf{clear:both;}
+html, body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin: 0px; 
+    font-family: "Ubuntu","Helvetica","Arial";
+    font-size: 21px;
+    color: #fff;
+    text-shadow: #333;
+    line-height: 24px; 
+}
+ 
+#opacity{
+    height: 100%;
+    width:100%;
+   
+    margin: 0px;
+    padding: 0px;
+    clear:both;
+   
+    opacity: 0.9;
+    position: absolute;
+    background: deepskyblue;
+    z-index: 1;
+}
+
+#content,#source, #date, #bar { 
+    position: relative;
+    z-index: 2;
+    float:left; 
+}
+
+#content{ 
+    width: 350px;
+    height: 70px;
+    overflow: hidden;
+    float:left;
+    margin: 20px 0px 5px 30px;
+    text-rendering: auto;
+    text-rendering: optimizeSpeed;
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+}
+
+#content span{
+    white-space: nowrap;
+    overflow: ellipsis;
+    float:left;
+}
+#bar{
+    margin:0 auto; 
+    position: relative;
+    font-size: 13px;
+    clear: clear;
+    width: 100%;
+    text-align: left;
+    height: 4px;
+    background-color: white;
+    top: 0px;
+    position: fixed;
+    
+}
+
+#source{
+    font-size: 13px;
+    float:right;
+    text-align: right;
+    color: white;
+    padding:10px 15px 0 0; 
+}
+
+#date{
+    padding:10px 15px 0 0; 
+    font-size: 13px;
+    float:right;
+    text-align: left;
+    color: #fff;
+}

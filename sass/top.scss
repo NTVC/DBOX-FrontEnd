@@ -1,0 +1,133 @@
+@import "variables";
+
+@mixin widget_default($color){
+	margin-top:1.6rem;
+	padding-bottom:.9px;
+	height:4rem;
+	//border-bottom:1px solid $color;
+}
+
+#top{
+	width:100%;
+	height:8rem;
+	padding:0;
+	margin-top:0rem;
+	margin-bottom:2rem;
+	float:left;
+	font: 16px $primary-font;
+	background:url('../images/bg-top.png');
+	background-repeat: repeat-x;
+	overflow:visible;
+	& ul{
+			& li{
+				width:3.8rem;
+				float:left;
+				padding-top:3rem;
+				margin-left:1rem;
+				& i{
+					color:white;
+					font-size: 1.7rem;
+				}
+			}
+			& .nv-el-current{
+				& i{
+					color: white; 
+					transform:scale( 1.1 );
+					background: #5ddb00;
+					padding:4px 7px;
+					border-radius:.5rem;
+				}
+			}
+			#logo{
+				float:left;
+				padding: 1rem 0rem 0 2rem;
+			}
+			#logo_ntvc{
+				width:640px;
+				float:left;
+				padding:2rem 0rem 0 2rem;
+				& img{
+					width: 10.5rem;
+				}
+			}
+			#powered_ntvc{
+				margin-top:4rem;
+				float:left;
+				& img{
+
+					width: 7rem;
+				}
+			}
+
+			// #search{
+			// 	width:22rem;
+			// 	height:3rem;
+			// 	border:0px;
+			// 	border-radius: 2rem;
+			// 	font-size:1.2rem;
+			// 	font-weight: 100;
+			// 	color:$menu_deactive;
+			// 	padding-left:1rem;
+			// 	margin-top:.6rem;
+			// 	background:white url('../images/search.png') no-repeat 20rem .6rem;
+			// 	opacity: .8;
+			// }
+			#time{
+				width:11%;
+				margin-top: -.5rem;
+				//float:left;
+				.clock{
+					color:white;
+					font-size:2rem;
+					
+
+					& #ampm{
+						font-size:1rem;
+						//@include widget_default(#fd4302);
+					}
+				}
+			}
+			#parental-control{
+
+			}
+			#wifi{
+
+				& img{
+					width: 50%;
+				}
+			}
+			#folder {
+
+				fill:white;
+				& img{
+					width: 60%;
+					color:white;
+				}
+			}
+			#support {
+
+				fill:white;
+				& img{
+					width: 60%;
+					color: white;
+				}
+			}
+			#settings{
+
+				& img{
+					width: 60%;
+				}
+			}
+			#help{
+
+				& img{
+					width: 60%;
+				}
+			}
+
+	}
+}
+
+
+
+

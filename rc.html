@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; Charset=UTF-8"/>
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="mobile-web-app-capable" content="yes">
+
+  
+    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="/manifest.json">
+<!-- Fallback application metadata for legacy browsers -->
+    <meta name="application-name" content="Live">
+    <link rel="icon" sizes="64x64" href="images/icons/64.png">
+    <link rel="icon" sizes="512x512" href="images/icons/512.png">
+    
+    <title>D-Box TV</title>
+
+</head>
+<body ng-controller="MainCtrl" >
+<a href='javascript:startSplashVideo();'>splash video</a>
+<script>
+	var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+	var eventer = window[eventMethod];
+	var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+
+	var canplay = false;
+	// Listen to message from android
+	eventer(messageEvent,function(e) {
+
+		
+
+
+	},false);
+
+	function startSplashVideo(){
+		 var splash = "startSplashVideo";
+		 window.parent.postMessage(splash,"*");
+	}
+</script>
+</body>
+</html>

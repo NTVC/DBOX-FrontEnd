@@ -1,0 +1,101 @@
+/* line 10, ../sass/top.scss */
+#top {
+  width: 100%;
+  height: 8rem;
+  padding: 0;
+  margin-top: 0rem;
+  margin-bottom: 2rem;
+  float: left;
+  font: 16px "Roboto-Light", Helvetica, Arial;
+  background: url("../images/bg-top.png");
+  background-repeat: repeat-x;
+  overflow: visible;
+}
+/* line 22, ../sass/top.scss */
+#top ul li {
+  width: 3.8rem;
+  float: left;
+  padding-top: 3rem;
+  margin-left: 1rem;
+}
+/* line 27, ../sass/top.scss */
+#top ul li i {
+  color: white;
+  font-size: 1.7rem;
+}
+/* line 33, ../sass/top.scss */
+#top ul .nv-el-current i {
+  color: white;
+  transform: scale(1.1);
+  background: #5ddb00;
+  padding: 4px 7px;
+  border-radius: .5rem;
+}
+/* line 41, ../sass/top.scss */
+#top ul #logo {
+  float: left;
+  padding: 1rem 0rem 0 2rem;
+}
+/* line 45, ../sass/top.scss */
+#top ul #logo_ntvc {
+  width: 640px;
+  float: left;
+  padding: 2rem 0rem 0 2rem;
+}
+/* line 49, ../sass/top.scss */
+#top ul #logo_ntvc img {
+  width: 10.5rem;
+}
+/* line 53, ../sass/top.scss */
+#top ul #powered_ntvc {
+  margin-top: 4rem;
+  float: left;
+}
+/* line 56, ../sass/top.scss */
+#top ul #powered_ntvc img {
+  width: 7rem;
+}
+/* line 75, ../sass/top.scss */
+#top ul #time {
+  width: 11%;
+  margin-top: -.5rem;
+}
+/* line 79, ../sass/top.scss */
+#top ul #time .clock {
+  color: white;
+  font-size: 2rem;
+}
+/* line 84, ../sass/top.scss */
+#top ul #time .clock #ampm {
+  font-size: 1rem;
+}
+/* line 95, ../sass/top.scss */
+#top ul #wifi img {
+  width: 50%;
+}
+/* line 99, ../sass/top.scss */
+#top ul #folder {
+  fill: white;
+}
+/* line 102, ../sass/top.scss */
+#top ul #folder img {
+  width: 60%;
+  color: white;
+}
+/* line 107, ../sass/top.scss */
+#top ul #support {
+  fill: white;
+}
+/* line 110, ../sass/top.scss */
+#top ul #support img {
+  width: 60%;
+  color: white;
+}
+/* line 117, ../sass/top.scss */
+#top ul #settings img {
+  width: 60%;
+}
+/* line 123, ../sass/top.scss */
+#top ul #help img {
+  width: 60%;
+}

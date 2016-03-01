@@ -1,0 +1,192 @@
+/* line 1, ../sass/movie_list.scss */
+.movie-list {
+  background: none;
+  height: 100%;
+  overflow: scroll-y;
+  position: absolute;
+  top: 0;
+  margin-bottom: 18rem;
+}
+/* line 8, ../sass/movie_list.scss */
+.movie-list ul {
+  margin-top: -3rem;
+  padding-top: 13rem;
+  padding-left: 9rem;
+}
+/* line 17, ../sass/movie_list.scss */
+.movie-list ul #movieListFinal {
+  padding-top: 20rem;
+  margin-top: 20rem;
+  height: 20rem;
+}
+/* line 22, ../sass/movie_list.scss */
+.movie-list ul li {
+  width: 12.1rem;
+  height: 23rem;
+  margin: .7rem;
+  padding: 0rem;
+  display: inline;
+  float: left;
+  padding-right: 0rem;
+  position: relative;
+  transform: scale(0.7, 0.7);
+}
+/* line 33, ../sass/movie_list.scss */
+.movie-list ul li .bar {
+  position: relative;
+  top: 3rem;
+  width: 0rem;
+  height: .2rem;
+  background: #5ddb00;
+}
+/* line 40, ../sass/movie_list.scss */
+.movie-list ul li .play-movie {
+  opacity: 0;
+  position: relative;
+  top: 12rem;
+  left: 5rem;
+}
+/* line 46, ../sass/movie_list.scss */
+.movie-list ul li .poster {
+  float: left;
+  background: black;
+}
+/* line 49, ../sass/movie_list.scss */
+.movie-list ul li .poster img {
+  opacity: 1;
+  -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(250, 250, 250, 0.4)));
+}
+/* line 54, ../sass/movie_list.scss */
+.movie-list ul li h3 {
+  display: none;
+  color: white;
+  background: #101010;
+  width: 12.5rem;
+  float: left;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.3rem;
+  text-transform: uppercase;
+  font-size: .8rem;
+  position: relative;
+  top: -1rem;
+}
+/* line 71, ../sass/movie_list.scss */
+.movie-list ul .load-more {
+  width: 12.1rem;
+  height: 18rem;
+  background-color: #5ddb00;
+  margin: 3rem auto;
+  text-align: center;
+}
+/* line 78, ../sass/movie_list.scss */
+.movie-list ul .load-more img {
+  padding-top: 5rem;
+}
+/* line 83, ../sass/movie_list.scss */
+.movie-list .description {
+  z-index: 2147483647;
+  display: none;
+  position: absolute;
+  padding: 1rem;
+  width: 19rem;
+  height: 22rem;
+  line-height: 1rem;
+  background: white;
+  border: 3px solid white;
+  overflow: hidden;
+}
+/* line 96, ../sass/movie_list.scss */
+.movie-list .description #poster-placeholder {
+  float: left;
+  padding-right: .8rem;
+  padding-bottom: .6rem;
+}
+/* line 101, ../sass/movie_list.scss */
+.movie-list .description #movie-title {
+  font-weight: 500;
+  color: #9f9f9f;
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  margin: 0;
+  margin-bottom: .5rem;
+}
+/* line 109, ../sass/movie_list.scss */
+.movie-list .description #movie-description {
+  color: #9f9f9f;
+  font-size: 1.1rem;
+  font-weight: 100;
+  line-height: 1.2rem;
+  width: 100%;
+  height: 11.8rem;
+  overflow: hidden;
+}
+/* line 118, ../sass/movie_list.scss */
+.movie-list .description #year {
+  font-weight: 700;
+  font-size: .9rem;
+  color: #9f9f9f;
+}
+/* line 123, ../sass/movie_list.scss */
+.movie-list .description #runtime {
+  font-weight: 700;
+  font-size: .9rem;
+  color: #9f9f9f;
+}
+/* line 128, ../sass/movie_list.scss */
+.movie-list .description #rating {
+  font-weight: 700;
+  font-size: .9rem;
+  color: #9f9f9f;
+}
+/* line 133, ../sass/movie_list.scss */
+.movie-list .description #tags {
+  font-weight: 700;
+  font-size: .9rem;
+  color: #9f9f9f;
+}
+/* line 138, ../sass/movie_list.scss */
+.movie-list .description #watch-now {
+  padding: .4rem;
+  border: 0px solid red;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 144, ../sass/movie_list.scss */
+.movie-list .description #watch-now img {
+  padding-right: .6rem;
+}
+/* line 147, ../sass/movie_list.scss */
+.movie-list .description #watch-now #placeholder {
+  font-size: 1.4rem;
+  color: #9f9f9f;
+  position: relative;
+  top: -1rem;
+}
+/* line 155, ../sass/movie_list.scss */
+.movie-list .nv-el-current {
+  transform: scale(1, 1);
+}
+/* line 157, ../sass/movie_list.scss */
+.movie-list .nv-el-current .bar {
+  width: 12.5rem;
+  -webkit-transition: 2000ms linear;
+  -moz-transition: 2000ms linear;
+  -o-transition: 2000ms linear;
+  -ms-transition: 2000ms linear;
+  transition: 2000ms linear;
+}
+/* line 165, ../sass/movie_list.scss */
+.movie-list .nv-el-current .play-movie {
+  opacity: 1;
+}
+/* line 168, ../sass/movie_list.scss */
+.movie-list .nv-el-current .poster {
+  background: black;
+}
+/* line 170, ../sass/movie_list.scss */
+.movie-list .nv-el-current .poster img {
+  opacity: 1;
+}

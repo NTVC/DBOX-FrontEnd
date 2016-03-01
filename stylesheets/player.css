@@ -1,0 +1,159 @@
+/* line 4, ../sass/player.scss */
+.player {
+  float: left;
+  width: 20rem;
+  padding: 0;
+  margin: 0;
+}
+/* line 11, ../sass/player.scss */
+.player .channel img {
+  float: left;
+  max-height: 3rem;
+  margin-right: .5rem;
+}
+/* line 16, ../sass/player.scss */
+.player .channel h3 {
+  color: white;
+  font: 2rem "Roboto-Light", Helvetica, Arial;
+  height: 2.4rem;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* line 26, ../sass/player.scss */
+.player #loader {
+  width: 15rem;
+  height: 15rem;
+  color: #9f9f9f;
+  size: .3rem;
+  position: relative;
+  top: 7.5rem;
+  left: 8.3rem;
+}
+/* line 36, ../sass/player.scss */
+.player #player-controls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+/* line 41, ../sass/player.scss */
+.player .video-obj {
+  width: 100%;
+  background: url("../images/player/video-player-left.png") no-repeat;
+  background-position: left bottom;
+  float: right;
+  overflow: hidden;
+}
+/* line 47, ../sass/player.scss */
+.player .video-obj video {
+  float: right;
+  background: black;
+}
+/* line 54, ../sass/player.scss */
+.player .live-current {
+  width: 100%;
+  height: 5rem;
+  background: black;
+  float: left;
+  margin-top: 0rem;
+  z-index: 99;
+  position: relative;
+  left: -.0rem;
+}
+/* line 68, ../sass/player.scss */
+.player .live-current img {
+  float: left;
+  margin-right: .8rem;
+  margin-left: 1rem;
+  margin-top: 1.1rem;
+}
+/* line 74, ../sass/player.scss */
+.player .live-current h3 {
+  color: white;
+  font: 1.1rem "Roboto-Light", Helvetica, Arial;
+  padding-top: 4%;
+}
+/* line 86, ../sass/player.scss */
+.player .live-current .description_content {
+  color: white;
+  font: 0.8rem "Roboto-Light", Helvetica, Arial;
+  font-weight: 500;
+  padding-top: 5%;
+  width: 15rem;
+  height: 2rem;
+  overflow: hidden;
+  display: block;
+  text-overflow: ellipsis;
+  line-height: .8rem;
+}
+/* line 101, ../sass/player.scss */
+.player .live-next {
+  display: none;
+  width: 100%;
+  height: 3rem;
+  float: left;
+  background: url("") no-repeat;
+  background-position: right top;
+  z-index: 99;
+  overflow: hidden;
+  border-top: 1px solid black;
+}
+/* line 111, ../sass/player.scss */
+.player .live-next h4 {
+  width: 100%;
+  color: white;
+  margin-top: -.1rem;
+  font: 1rem "Roboto-Light", Helvetica, Arial;
+  font-weight: 100;
+  padding: .6rem 2.4rem  .6rem .6rem;
+  background: #fd4302;
+  overflow: hidden;
+  display: inline-block;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 1rem;
+}
+
+/* line 130, ../sass/player.scss */
+.fullscreen li {
+  width: 96%;
+  height: 95.5%;
+  float: left;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 0;
+  z-index: 2147483647;
+}
+/* line 140, ../sass/player.scss */
+.fullscreen li .live-current {
+  display: none;
+}
+/* line 143, ../sass/player.scss */
+.fullscreen li .channel {
+  display: none;
+}
+/* line 150, ../sass/player.scss */
+.fullscreen li .video-obj video {
+  padding: 0;
+  float: left;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 165, ../sass/player.scss */
+#main-play-indicator, #main-pause-indicator {
+  display: none;
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  z-index: 2147483647;
+}
+/* line 171, ../sass/player.scss */
+#main-play-indicator img, #main-pause-indicator img {
+  width: 100px;
+  height: 100px;
+}

@@ -1,0 +1,108 @@
+
+
+.block-container {
+    display: block;
+}
+
+.example-1 {
+    display: block;
+}
+
+.example-1 .nv-scope {
+    padding: 0;
+    margin: 0;
+}
+
+.example-1 .block {
+    /*float: left;*/
+}
+
+.example-2 .nv-scope {
+    width: 700px;
+/*    height: 300px;*/
+    padding: 0px;
+    margin: 0;
+    overflow: scroll;
+}
+
+.example-2 .block {
+    box-sizing: border-box;
+    /*float: left;*/
+    margin: 0;
+    padding: 0;
+    /*position: relative;*/
+}
+
+.example-2 .wide-container {
+    width: 1000px;
+/*    height: 150px;*/
+    /*position: relative;*/
+    padding: 0;
+    margin: 0;
+}
+
+.block {
+    width: 100px;
+/*    height: 100px;*/
+    box-sizing: border-box;
+    display: block;
+    padding: 0px;
+    margin: 0px;
+   /* position: relative;*/
+}
+
+.block svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: visible;
+    z-index: 99;
+}
+
+.orange {
+    background-color: #FFB74D;
+}
+
+.yellow {
+    background-color: #FFD54F;
+}
+
+.green {
+    background-color: #7CB342;
+}
+
+.nv-scope {
+    display: block;
+    /*position: relative;*/
+    box-sizing: border-box;
+   /* background-color: #E0E0E0;*/
+    margin: 0px;
+    overflow: hidden;
+}
+
+.inactive {
+    /*//background-color: lightgray;*/
+}
+
+.nv-scope {
+   /* background-color: #E0E0E0;*/
+}
+
+.nv-scope-current {
+    /*background-color: #DCEDC8;*/
+}
+
+.nv-scope-current .nv-el-current {
+ /*   background-color: #03A9F4;*/
+}
+
+div#nav-event-info {
+    width: 200px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 0;
+    z-index: 99;
+}

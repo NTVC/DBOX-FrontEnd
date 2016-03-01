@@ -1,0 +1,118 @@
+/* line 12, ../sass/widgets.scss */
+#padding-of-menu {
+  width: 18rem;
+  height: 100%;
+  float: left;
+}
+
+/* line 21, ../sass/widgets.scss */
+.video-list .nv-el-current .title {
+  color: #5ddb00;
+}
+/* line 24, ../sass/widgets.scss */
+.video-list .nv-el-current .selector {
+  height: .8rem;
+  background: #5ddb00;
+  padding: 0rem;
+}
+/* line 33, ../sass/widgets.scss */
+.video-list #session-dashboard {
+  position: relative;
+}
+/* line 35, ../sass/widgets.scss */
+.video-list #session-dashboard .widget {
+  padding: 1rem;
+  float: left;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+/* line 41, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .widget-news {
+  width: 27rem;
+  height: 10rem;
+  background: #fd4302;
+  float: left;
+  overflow: hidden;
+  display: inline;
+  height: 5.5rem;
+  float: left;
+}
+/* line 47, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .widget-news #news .news-box {
+  display: inline;
+  position: relative;
+  top: -7rem;
+  left: 0;
+}
+/* line 52, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .widget-news #news .news-box .news-title {
+  font-size: 1.3rem;
+  color: white;
+  padding: 9rem 1rem;
+}
+/* line 57, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .widget-news #news .news-box .news-content {
+  display: none;
+}
+/* line 62, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .widget-news #news .nv-el-current .news-title {
+  padding: 9rem 1rem;
+}
+/* line 69, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .widget-weather {
+  width: 27rem;
+  height: 10rem;
+  background: #fd4302;
+  float: left;
+  overflow: hidden;
+  display: inline;
+  background: #23d3ff;
+  float: left;
+}
+/* line 74, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .widget-money {
+  width: 27rem;
+  height: 10rem;
+  background: #fd4302;
+  float: left;
+  overflow: hidden;
+  display: inline;
+  float: left;
+}
+/* line 78, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .widget-app {
+  width: 20rem;
+}
+/* line 80, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .widget-app a {
+  display: block;
+  float: left;
+}
+/* line 84, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .widget-app img {
+  margin-left: .4rem;
+}
+/* line 88, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .nv-el-current {
+  opacity: .2;
+}
+/* line 91, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .title {
+  text-align: left;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 0rem;
+  color: black;
+  height: 2rem;
+}
+/* line 99, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .indicator {
+  background: #101010;
+}
+/* line 105, ../sass/widgets.scss */
+.video-list #session-dashboard .widget .indicator img {
+  margin: 0;
+  padding: 0;
+  padding-left: 30rem;
+}

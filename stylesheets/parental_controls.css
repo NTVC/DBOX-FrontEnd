@@ -1,0 +1,197 @@
+/* line 3, ../sass/parental_controls.scss */
+#list #pc-menu {
+  background: none;
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  top: 0;
+  margin-top: 0rem;
+  padding-top: 16rem;
+  float: left;
+}
+/* line 14, ../sass/parental_controls.scss */
+#list #pc-menu h2 {
+  float: left;
+  text-transform: capitalize;
+}
+/* line 18, ../sass/parental_controls.scss */
+#list #pc-menu ul {
+  width: 9000px;
+  float: left;
+  margin-left: 8.7rem;
+  padding-left: 2rem;
+}
+/* line 24, ../sass/parental_controls.scss */
+#list #pc-menu ul li {
+  padding: 0rem;
+  display: inline;
+  float: left;
+  margin-right: 2rem;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: 0px 0px 0 1px white;
+}
+/* line 32, ../sass/parental_controls.scss */
+#list #pc-menu ul li h2 {
+  width: 100%;
+  float: left;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin: .4rem 2rem;
+  padding: 0;
+}
+/* line 42, ../sass/parental_controls.scss */
+#list #pc-menu .nv-el-current {
+  background: #5ddb00;
+  box-shadow: 0px 0px 0 1px #5ddb00;
+  transform: scale(1.2, 1.2);
+}
+/* line 45, ../sass/parental_controls.scss */
+#list #pc-menu .nv-el-current h2 {
+  color: white;
+}
+/* line 54, ../sass/parental_controls.scss */
+#list #pc-contents {
+  width: 100%;
+  height: 30rem;
+}
+/* line 59, ../sass/parental_controls.scss */
+#list #pc-contents ul {
+  width: 9000px;
+  margin-left: 5.6rem;
+  padding-left: 2rem;
+  margin-top: 6.5rem;
+  overflow: visible;
+}
+/* line 68, ../sass/parental_controls.scss */
+#list #pc-contents ul li {
+  width: 6rem;
+  display: inline;
+  float: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  overflow: hidden;
+  margin-left: 2rem;
+}
+/* line 79, ../sass/parental_controls.scss */
+#list #pc-contents ul li img {
+  width: 6rem;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: .5rem;
+}
+/* line 86, ../sass/parental_controls.scss */
+#list #pc-contents ul li span {
+  float: left;
+  width: 100%;
+  color: white;
+  font-size: 1rem;
+  margin-top: .2rem;
+}
+/* line 92, ../sass/parental_controls.scss */
+#list #pc-contents ul li span i {
+  float: left;
+  font-size: 1rem;
+  margin: .3rem .5rem 0 0;
+  padding: 0;
+}
+/* line 104, ../sass/parental_controls.scss */
+#list #pc-contents .nv-el-current {
+  box-shadow: 0px 0px 0 1px white;
+  border-radius: 1rem;
+  transform: scale(1.3, 1.3);
+}
+/* line 107, ../sass/parental_controls.scss */
+#list #pc-contents .nv-el-current h2 {
+  color: black;
+}
+/* line 114, ../sass/parental_controls.scss */
+#list #pc-contents .enabled span {
+  color: white;
+}
+/* line 117, ../sass/parental_controls.scss */
+#list #pc-contents .enabled img {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+}
+/* line 121, ../sass/parental_controls.scss */
+#list #pc-contents .enabled .pc-itens {
+  color: white;
+}
+/* line 127, ../sass/parental_controls.scss */
+#list #pc-contents .disabled span {
+  color: red;
+}
+/* line 130, ../sass/parental_controls.scss */
+#list #pc-contents .disabled img {
+  opacity: .5;
+  -webkit-filter: grayscale(100%);
+}
+/* line 134, ../sass/parental_controls.scss */
+#list #pc-contents .disabled .pc-itens {
+  color: red;
+}
+/* line 142, ../sass/parental_controls.scss */
+#list #button-controller ul {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 630px;
+  margin-left: 9rem;
+  width: 12rem;
+  height: 4rem;
+  border-radius: .5rem;
+  background: white;
+}
+/* line 152, ../sass/parental_controls.scss */
+#list #button-controller ul li {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  margin-top: .4rem;
+}
+/* line 158, ../sass/parental_controls.scss */
+#list #button-controller ul .nv-el-current {
+  background: #5ddb00;
+  color: white;
+  transform: scale(1.3, 1.3);
+}
+/* line 168, ../sass/parental_controls.scss */
+#list .enabled span {
+  color: white;
+}
+/* line 171, ../sass/parental_controls.scss */
+#list .enabled img {
+  opacity: 1;
+  -webkit-filter: grayscale(0%);
+}
+/* line 175, ../sass/parental_controls.scss */
+#list .enabled .pc-itens {
+  color: white;
+}
+/* line 178, ../sass/parental_controls.scss */
+#list .enabled i {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  color: white;
+}
+/* line 188, ../sass/parental_controls.scss */
+#list .disabled .video-obj {
+  background: white;
+}
+/* line 191, ../sass/parental_controls.scss */
+#list .disabled span {
+  color: red;
+}
+/* line 194, ../sass/parental_controls.scss */
+#list .disabled img {
+  opacity: .5;
+  -webkit-filter: grayscale(100%);
+}
+/* line 198, ../sass/parental_controls.scss */
+#list .disabled .pc-itens {
+  color: red;
+}

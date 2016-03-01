@@ -1,0 +1,297 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.hide {
+    display:none;
+}
+
+.geo-error-message, .attribution-links {
+    max-width:400px;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
+    background:#fff;
+    padding: 25px;
+    margin:6rem auto;
+    position:relative;
+    z-index: 10;
+}
+
+.close-error, .close-attribution {
+    position:absolute;
+    top:0;
+    right:0;
+    border-radius:0;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.fallback-background {
+    background-image:url(images/weather.png);
+}
+
+#rain-canvas,  #cloud-canvas, #time-canvas, #lightning-canvas {
+    position:absolute;
+    z-index: -1;
+}
+#weather-canvas {
+   
+
+}
+
+
+/* Canvas Background Classes */
+
+.thunderstorm {
+    background-color: #34495E;
+}
+.drizzle, .rain {
+    background-color: #2080B6;
+}
+.snow {
+    background-color: #959B9F;
+}
+.atmosphere {
+    background-color: #5E668F;
+}
+.clouds {
+    background-color: #3498DB;
+}
+.clearsky, .default-weather {
+    background-color: #6FC2D4;
+}
+.extreme-weather {
+    background-color: #C0392B;
+}
+
+
+.thunderstorm.nighttime {
+    background-color: #1B2631;
+}
+.drizzle.nighttime, .rain.nighttime {
+    background-color: #0E3A53;
+}
+.snow.nighttime {
+    background-color: #333537;
+}
+.atmosphere.nighttime {
+    background-color: #32364A;
+}
+.clouds.nighttime {
+    background-color: #164362;
+}
+.clearsky.nighttime {
+    background-color: #222;
+}
+.extreme-weather.nighttime {
+    background-color: #491611;
+}
+
+.nighttime {
+    background-image: url(images/stardust.png);
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 300;
+}
+
+
+.weather, .front-page-description {
+    text-align:center;
+    color: #fff;
+    font-size:1rem;
+    font-weight:300;
+}
+
+.nighttime .weather {
+    text-shadow: 1px 1px 4px #000;
+    font-weight:400;
+}
+
+.nighttime .checked {
+    color: rgba(255,255,255,.5);
+}
+
+.weather-info {
+    list-style-type:none;
+    padding:0;
+    text-align:center;
+    font-size:.4rem;
+}
+
+.weather-item {
+    text-align:center;
+    display:inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.middle {
+    margin: 0px 0 0 0rem;
+}
+
+@media all and (min-width:400px) {
+    .middle {
+        position: absolute;
+        top: 45%;
+        right: 0;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+}
+
+#powered{
+    font-size: .5rem;    
+}
+.temp-change {
+    clear:both;
+}
+
+.weather-container {
+    position:relative;
+}
+
+.weather-description {
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.weather-description, .weather-box {
+    padding: 0px 0;
+}
+
+.temp-change-button {
+    background: none;
+    border: none;
+    padding: 0 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.celsius {
+    border-right: 2px solid #fff;
+}
+
+.checked {
+    color: rgba(0,0,0,.5);
+}
+
+.humidity {
+    background-image: url(images/humidity.svg);
+    padding-left: 25px;
+}
+
+.wind {
+    background-image: url(images/flag.svg);
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+.temperature {
+    font-size:3rem;
+    font-weight: 700;
+    line-height:1.2;
+   /* margin-left: 35px;*/
+}
+
+/*@media all and (min-width:320px) {
+    .temperature  {
+        font-size: 6rem;
+    }
+}*/
+
+.temperature:after {
+    content: '\B0 C';
+    font-size: 1rem;
+    line-height: 2;
+    vertical-align: top;
+    margin-left:6px;
+    font-weight: 100;
+}
+
+.fahrenheit-degree:after {
+    content: '\B0 F';
+}
+
+.celsius-degree:after {
+    content: '\B0 C';
+}
+
+a {
+    color: #333;
+}
+
+
+
+/* Sticky Footer */
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -100px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 100px; 
+}
+.site-footer {
+  background: #fff;
+  color: #555;
+  font-size: 14px;
+}
+
+.site-footer-section {
+    padding: 5px 5px 0 5px;
+    font-size: 14px;
+}
+
+.noun-project {
+    border:none;
+    background:none;
+    padding:0;
+    text-decoration:underline;
+}
+
+
+
+
+
+/*@media all and (min-width:861px) {
+
+    .site-footer-section {
+        display:inline-block;
+        width:50%;
+        padding: 25px 25px 0 25px;
+    }
+
+    .author {text-align:right;}
+
+}*/
