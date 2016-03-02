@@ -208,7 +208,7 @@
 /* line 218, ../sass/home_list.scss */
 .home-list .highlights li {
   width: 7.6rem;
-  height: 11rem;
+  height: 12rem;
   overflow: visible;
   background: none;
   padding: .1rem;
@@ -222,13 +222,13 @@
   width: 100%;
   -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(70%, transparent), to(rgba(250, 250, 250, 0.4)));
 }
-/* line 235, ../sass/home_list.scss */
+/* line 234, ../sass/home_list.scss */
 .home-list .highlights .load-more-button img {
   width: 100%;
   height: 14rem;
   -webkit-box-reflect: none;
 }
-/* line 241, ../sass/home_list.scss */
+/* line 240, ../sass/home_list.scss */
 .home-list .highlights .nv-el-current {
   opacity: 1;
   position: relative;
@@ -237,7 +237,7 @@
   transform: scale(1.1);
   float: left;
 }
-/* line 251, ../sass/home_list.scss */
+/* line 250, ../sass/home_list.scss */
 .home-list .first {
   margin-left: 8.2rem;
 }

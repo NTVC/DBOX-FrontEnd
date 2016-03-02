@@ -22,8 +22,8 @@ var conf = {
 };
 
 var environment = {
-	'api':conf[conf.environment].url+conf[conf.environment].port+'/dbox',
-	'imagesPath':conf[conf.environment].url+conf[conf.environment].port+'/'
+	'api': conf[conf.environment].url+conf[conf.environment].port+'/dbox',
+	'imagesPath': conf[conf.environment].url+conf[conf.environment].port+'/'
 };
 
 var GoliveJSON = { 
